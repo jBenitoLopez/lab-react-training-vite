@@ -1,10 +1,13 @@
 import "./App.css"
+import Greetings from './components/Greetings'
 import IdCard from './components/IdCard'
 
 function App() {
   return (
     <div className="App">
-      <h1> LAB | React Training</h1>
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
+
       <div className="row">
         <div className="col-sm-6 mb-3 mb-sm-0">
           <IdCard
