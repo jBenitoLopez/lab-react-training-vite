@@ -1,20 +1,20 @@
-### Iteration 2 | Component: `Greetings`
+### Iteration 3 | Component: `Random`
 
-Create a `Greetings` component with 2 props:
+Create a `Random` component with 2 props:
 
-- `lang`: A string that can have values: `"de"`, `"en"`, `"es"` or `"fr"`
-- `children`: A text
+- `min`: A number
+- `max`: A number
 
-The component should display a greeting text in the chosen language.
+The component should display a random integer in the range between the `min` and the `max` number.
 
 **Example:**
 
 ```jsx
-<Greetings lang="de">Ludwig</Greetings>
-<Greetings lang="fr">François</Greetings>
+<Random min={1} max={6}/>
+<Random min={1} max={100}/>
 ```
 
 **Expected Output:**
 
-![image](https://user-images.githubusercontent.com/5306791/52957158-57edfd80-3391-11e9-8726-93c1a3389016.png)
+![image](https://user-images.githubusercontent.com/5306791/52957202-718f4500-3391-11e9-9b45-d1172067e877.png)
 
