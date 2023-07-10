@@ -4,7 +4,7 @@ function NumbersTable({limit}) {
 
   let numberJsx = [];
   for (let number = 1; number <= limit; number++) {
-    const item = <div className={'square ' + (number%2===0?'even':'odd')}>{number}</div>
+    const item = <div key={number} className={'square ' + (number%2===0?'even':'odd')}>{number}</div>
     numberJsx.push(item)   
   }
 
