@@ -1,0 +1,32 @@
+:root {
+  /* background-color: aliceblue; */
+}
+
+.ntable {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.square {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  /* line-height: 100px;  The same as your div height */
+  width: 100px;
+  height: 100px;
+
+}
+
+.even {
+  background-color: red;
+}
+
+.odd {
+  background-color: whitesmoke;
+}
