@@ -1,4 +1,5 @@
 import "./App.css"
+import RandomTest from './RandomTest.jsx'
 import Iteration01 from './Iteration01/Main.jsx'
 import Iteration02 from './Iteration02/Main.jsx'
 import Iteration03 from './Iteration03/Main.jsx'
@@ -9,10 +10,12 @@ import Iteration07 from './Iteration07/Main.jsx'
 import Iteration08 from './Iteration08/Main.jsx'
 import Iteration09 from './Iteration09/Main.jsx'
 import Iteration10 from './Iteration10/Main.jsx'
+import Iteration11 from './Iteration11/Main.jsx'
 
 function App() {
   return (
     <div className="App">
+      {false && <RandomTest />}
       {false && <Iteration01 />}
       {false && <Iteration02 />}
       {false && <Iteration03 />}
@@ -22,7 +25,8 @@ function App() {
       {false && <Iteration07 />}
       {false && <Iteration08 />}
       {false && <Iteration09 />}
-      {true && <Iteration10 />}
+      {false && <Iteration10 />}
+      {true && <Iteration11 />}
     </div>
   )
 }
