@@ -1,0 +1,15 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+ 
+}
+
+
+.likebtn Button {
+
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
