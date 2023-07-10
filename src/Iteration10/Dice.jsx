@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import '../assets/css/Dice.css'
 import diceEmpty from '../assets/images/dice-empty.png'
 import dice1 from '../assets/images/dice1.png'
