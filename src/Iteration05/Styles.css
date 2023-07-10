@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+}
+
+.credit-card {
+  display: flex;
+  justify-content: flex-start;
+
+  position: relative;
+  width: 310px;
+  aspect-ratio: 1.6;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+  margin: .3rem;
+}
+
+
+.credit-logo {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 48px;
+  height: auto;
+  display: block;
+}
+
+.credit-number {
+  position: absolute;
+  top: 70px;
+  left: 28px;
+  display: block;
+  font-size: 26px;
+letter-spacing: 1pt;
+
+  margin-bottom: 10px;
+  
+}
+
+.credit-details {
+  position: absolute;
+  bottom: 20px;
+  line-height: 6pt;
+  font-size: 12px;
+  font-weight:100;
+}
+
+.credit-expiration {
+  position: relative;
+}
+
+.credit-owner {
+  position: relative;
+  margin-top: 10px;
+}

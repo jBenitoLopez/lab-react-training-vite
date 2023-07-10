@@ -3,6 +3,7 @@ import Iteration01 from './Iteration01/Main.jsx'
 import Iteration02 from './Iteration02/Main.jsx'
 import Iteration03 from './Iteration03/Main.jsx'
 import Iteration04 from './Iteration04/Main.jsx'
+import Iteration05 from './Iteration05/Main.jsx'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {false && <Iteration01 />}
       {false && <Iteration02 />}
       {false && <Iteration03 />}
-      {true && <Iteration04 />}
+      {false && <Iteration04 />}
+      {true && <Iteration05 />}
     </div>
   )
 }
