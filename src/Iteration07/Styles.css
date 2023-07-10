@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+}
+
+
+/* .main {
+  display: flex;
+  flex-direction: column;
+  font-size: 52px;
+  margin-left: .5rem;
+
+} */
+
+.driver-card {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(71, 114, 255);
+  color: white;
+  margin: .3rem;  
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.driver-img {
+  display: inline-block; 
+  position: relative; 
+  width: 100px; height: 100px; 
+  overflow: hidden; border-radius: 50%; 
+  margin: .2rem 1rem;
+} 
+
+.driver-img img { 
+  width: auto; height: 100%; 
+    margin-left: -50px;
+}
+
+.driver-content {
+
+}
+.driver-name {
+  
+  font-size: 26px;
+  font-weight: 500;
+  /* position: absolute;
+  top: 70px;
+  left: 28px;
+  display: block;
+  letter-spacing: 1pt;
+
+  margin-bottom: 10px; */
+  
+}
+
+.driver-rating {
+  font-size: 26px;
+  /* position: absolute;
+  top: 70px;
+  left: 28px;
+  display: block;
+  letter-spacing: 1pt;
+
+  margin-bottom: 10px; */
+  
+}
+
+.driver-details {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: .5rem;
+  /* position: absolute;
+  bottom: 20px;
+  line-height: 6pt;
+  font-size: 12px;
+  font-weight:100; */
+}
+
+.driver-model {
+  /* position: relative; */
+}
+
+.driver-license-plate{
+  /* position: relative;
+  margin-top: 10px; */
+}
