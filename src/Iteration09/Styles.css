@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: rows;
+
+}
+
+.picture {
+  position: relative;
+}
+
+
+.picture-fondo {
+  position: absolute;
+  left: 50px;
+  height: 512px;
+}
+
+.picture-glases {
+  position: absolute;
+  height: 210px;
+  width: 300px;
+  top: 147px;
+  left: 70px;
+  transform: rotate(3deg);
+}
