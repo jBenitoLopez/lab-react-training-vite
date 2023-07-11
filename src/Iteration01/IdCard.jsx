@@ -1,6 +1,3 @@
-import '../styles/IdCard.css'
-
-
 function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   const bday = new Date(birth)
   const bdayOpt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }
