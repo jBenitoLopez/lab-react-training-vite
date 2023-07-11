@@ -2,6 +2,55 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+  user-select: none;
+}
+button:hover {
+  border: 1px  rgb(212, 5, 5) solid;
+  color: rgba(224, 4, 4, 0.795);
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+.button {
+  background-color: lightgrey; 
+  border: 1px black solid;
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.botonera {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.botonera-tiny {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+
+}
+.botonera-tiny .button{
+  font-size: .8rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  margin-left: 2px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.button.selected {
+  border: 1px  rgb(20, 0, 204) solid;
+  color: rgb(208, 207, 245);
+  background-color: rgb(59, 17, 247);
+}
+
 .header-1 {
   font-size: 3.6rem;
   font-weight: bold;
@@ -112,6 +161,9 @@ img {
   color: black;
 }
 
+.card.highlight {
+  background-color: rgba(83, 83, 252, 0.5);
+}
 .card-image {
   margin: 0.5rem;
 }
