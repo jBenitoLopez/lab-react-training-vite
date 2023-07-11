@@ -1,0 +1,5 @@
+#card-it01 {
+  .card-body {
+    align-items: flex-start;
+  }
+}

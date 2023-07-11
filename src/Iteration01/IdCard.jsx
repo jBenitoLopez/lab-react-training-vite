@@ -1,3 +1,5 @@
+import './Styles.css';
+
 function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   const bday = new Date(birth)
   const bdayOpt = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }
@@ -5,7 +7,7 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   const bdayStr = bday.toLocaleDateString('en-US', bdayOpt).replaceAll(',', '')
 
   return (
-    <div className='card'>
+    <div id='card-it01' className='card'>
       <div className="card-image">
         <img src={picture} className="card-img-top" alt={firstName} />
       </div>

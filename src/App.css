@@ -109,6 +109,7 @@ img {
   border: 2px black solid;
   width: 100%;
   margin: 0.5rem;
+  color: black;
 }
 
 .card-image {
@@ -123,7 +124,10 @@ img {
   color: black;
 }
 
-.card-item {}
+.card-item {
+  color: black;
+  font-size: 14px;
+}
 
 .card-label {
   font-weight: bold;
